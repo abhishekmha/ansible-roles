@@ -1,0 +1,5 @@
+---
+
+- name: repo-configuration
+  apt_repository: repo='deb https://pkg.jenkins.io/debian-stable binary/' state=present
+  become: yes

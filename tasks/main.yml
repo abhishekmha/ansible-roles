@@ -1,0 +1,6 @@
+---
+# tasks file for /etc/ansible/roles/jenkins
+#
+- include: key.yaml
+- include: repository.yaml
+- include: install.yaml
